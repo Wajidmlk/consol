@@ -1,0 +1,19 @@
+.ClientMain{
+	background-color: none;
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	height: 300px;
+	
+}
+
+
+.Slider{
+	width: 100%;
+}
+.ClientImg{
+	height: 70px;
+	width: 70px;
+	margin-left: 80px;
+	margin-right: 80px;
+}

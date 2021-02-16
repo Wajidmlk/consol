@@ -1,0 +1,57 @@
+
+.Logo{
+	background-image: url('https://consol.com.pk/wp-content/uploads/2020/10/LOGO-3-E-WEB.png');
+	background-size: contain;
+	background-repeat: no-repeat; 
+	height: 100px;
+	width: 100px;
+	transition: 2s;
+}
+
+.Logo:hover{
+	transform: translate(0, 10px)  scale(1.5,1.5);
+}
+
+.navBar{
+	top:0;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	padding: 10px;
+	padding-left: 5%;
+	justify-content: center;
+	padding-top: 25px;
+	z-index:5;
+	font-weight: bolder;
+}
+.link{
+	opacity: 0.9;
+}
+.link:hover{
+
+}
+.navBarInside{
+	color: blue;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.navBarInside:hover{
+	color: yellow;
+}
+.active{
+	color:yellow;
+}
+.WhatsappBtn{
+	margin-top: 15px;
+	border-radius: 50px 50px 50px 0;
+	background-color: #25D366;
+	border:2px white solid;
+	color: white;
+  	transition: 2s;
+}
+.WhatsappBtn:hover{
+	background-color: #1a994a;
+
+	transform:  scale(1.05,1);
+}
+

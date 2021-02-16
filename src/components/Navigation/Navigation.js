@@ -20,7 +20,7 @@ const DivProp = 'navBarInside no-underline dn dib-ns pv4 ph4 grow pointer';
 
 
 			<div className={DivProp}>
-				<Link  to='cc' spy={true} smooth={true}>POLICES</Link>
+				<Link  to='polices' spy={true} smooth={true}>POLICES</Link>
 			</div>
 
 
@@ -33,7 +33,7 @@ const DivProp = 'navBarInside no-underline dn dib-ns pv4 ph4 grow pointer';
 			</div>
 
 			<div 
-			className='navBarInside WhatsappBtn f5 pv3 ph3 fr dib'>
+			className='navBarInside WhatsappBtn f5 ph3 fr dib'>
 				<Link to='cc' spy={true} smooth={true}>WHATSAPP</Link>
 			</div>
 

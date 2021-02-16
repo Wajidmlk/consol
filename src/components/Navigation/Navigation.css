@@ -3,8 +3,8 @@
 	background-image: url('https://consol.com.pk/wp-content/uploads/2020/10/LOGO-3-E-WEB.png');
 	background-size: contain;
 	background-repeat: no-repeat; 
-	height: 100px;
-	width: 100px;
+	height: 80px;
+	width: 90px;
 	transition: 2s;
 }
 
@@ -14,15 +14,20 @@
 
 .navBar{
 	top:0;
-	height: 100px;
 	width: 100%;
 	position: fixed;
-	padding: 10px;
 	padding-left: 5%;
-	justify-content: center;
-	padding-top: 25px;
+	padding-right: 2%;
+	padding-top: 10px;
 	z-index:5;
 	font-weight: bolder;
+	opacity: .9;
+	background: #9bc3d1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0f0e17, #9bc3d1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #0f0e17, #9bc3d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	border-bottom: 1px #f5f55f solid;
+
 }
 .link{
 	opacity: 0.9;
@@ -31,15 +36,15 @@
 
 }
 .navBarInside{
-	color: blue;
+	color: #e8e54f;
     letter-spacing: 3px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .navBarInside:hover{
 	color: yellow;
 }
 .active{
-	color:yellow;
+	color:#ff564a;
 }
 .WhatsappBtn{
 	margin-top: 15px;
@@ -47,11 +52,12 @@
 	background-color: #25D366;
 	border:2px white solid;
 	color: white;
-  	transition: 2s;
+  	transition: 1s;
+  	padding-top:8px;
+  	padding-bottom:8px; 
 }
 .WhatsappBtn:hover{
 	background-color: #1a994a;
-
 	transform:  scale(1.05,1);
 }
 

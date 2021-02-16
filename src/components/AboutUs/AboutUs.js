@@ -4,7 +4,7 @@ import ContactPic from './pics/pic1.png';
 import fieldPic from './pics/field.webp';
 const AboutUs =()=>{
 	return(
-	<div id='aboutus' className='AboutUsMain'>
+	<div id='polices' className='AboutUsMain'>
 		
 		<div className='aboutUs tc'>	
 

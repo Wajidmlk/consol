@@ -30,7 +30,7 @@ console.log("From condition: ",this.state.YPosition);
     }
     return(
       <div>
-       { /*<Navigation onButtonSubmit={this.onButtonSubmit} />*/}
+       	<Navigation onButtonSubmit={this.onButtonSubmit} />
         <Home />  
         <Client />
         <Work />

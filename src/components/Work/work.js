@@ -8,8 +8,8 @@ import Pic5 from './pics/paint.jpg';
 
 const work =()=>{
 	return(
-	<div id='contact' className='workMain'>
-		<div id='contact' className='tc'>
+	<div id='service' className='workMain'>
+		<div className='tc'>
 			<p className='Headings f2 b'>What We Do</p>
 			<p className='f3 white lh-copy'>
 				We are pooled with resources of technical knowledge coupled with industrial expertise. The services are tailored to meet the unique needs of clients based on rich experience.

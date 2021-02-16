@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/consol/static/css/main.d79bb9c6.chunk.css",
+    "main.js": "/consol/static/js/main.9c017f83.chunk.js",
+    "main.js.map": "/consol/static/js/main.9c017f83.chunk.js.map",
+    "runtime-main.js": "/consol/static/js/runtime-main.10513905.js",
+    "runtime-main.js.map": "/consol/static/js/runtime-main.10513905.js.map",
+    "static/css/2.035e1b90.chunk.css": "/consol/static/css/2.035e1b90.chunk.css",
+    "static/js/2.009c73e1.chunk.js": "/consol/static/js/2.009c73e1.chunk.js",
+    "static/js/2.009c73e1.chunk.js.map": "/consol/static/js/2.009c73e1.chunk.js.map",
+    "static/js/3.ca3338b1.chunk.js": "/consol/static/js/3.ca3338b1.chunk.js",
+    "static/js/3.ca3338b1.chunk.js.map": "/consol/static/js/3.ca3338b1.chunk.js.map",
+    "index.html": "/consol/index.html",
+    "static/css/2.035e1b90.chunk.css.map": "/consol/static/css/2.035e1b90.chunk.css.map",
+    "static/css/main.d79bb9c6.chunk.css.map": "/consol/static/css/main.d79bb9c6.chunk.css.map",
+    "static/js/2.009c73e1.chunk.js.LICENSE.txt": "/consol/static/js/2.009c73e1.chunk.js.LICENSE.txt",
+    "static/media/1.20aae6f5.jpg": "/consol/static/media/1.20aae6f5.jpg",
+    "static/media/1.58dddbfd.jpg": "/consol/static/media/1.58dddbfd.jpg",
+    "static/media/2.02751dc6.jpg": "/consol/static/media/2.02751dc6.jpg",
+    "static/media/3.0f7b05bb.jpg": "/consol/static/media/3.0f7b05bb.jpg",
+    "static/media/4.99d3ec60.png": "/consol/static/media/4.99d3ec60.png",
+    "static/media/5.39f9a87a.png": "/consol/static/media/5.39f9a87a.png",
+    "static/media/7.eb42e6e2.png": "/consol/static/media/7.eb42e6e2.png",
+    "static/media/8.0115b799.png": "/consol/static/media/8.0115b799.png",
+    "static/media/work.css": "/consol/static/media/back2.19fd7aaa.png",
+    "static/media/civil.87a13211.jpg": "/consol/static/media/civil.87a13211.jpg",
+    "static/media/electrical.16d06dd7.jpg": "/consol/static/media/electrical.16d06dd7.jpg",
+    "static/media/field.7a58eeb6.webp": "/consol/static/media/field.7a58eeb6.webp",
+    "static/media/maintain.f67a73ef.jpg": "/consol/static/media/maintain.f67a73ef.jpg",
+    "static/media/mechanical.df922701.jpg": "/consol/static/media/mechanical.df922701.jpg",
+    "static/media/paint.54136e74.jpg": "/consol/static/media/paint.54136e74.jpg",
+    "static/media/pic1.5c2184df.png": "/consol/static/media/pic1.5c2184df.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10513905.js",
+    "static/css/2.035e1b90.chunk.css",
+    "static/js/2.009c73e1.chunk.js",
+    "static/css/main.d79bb9c6.chunk.css",
+    "static/js/main.9c017f83.chunk.js"
+  ]
+}

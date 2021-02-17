@@ -40,9 +40,13 @@
 
 
 .Effects{
-	animation-name: Temp;
-	animation-duration: 5s;
-	animation-iteration-count:1;
+	transition: 5s ease-in;
+
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	animation: Temp 5s 1;
 
 }
 

@@ -1,10 +1,24 @@
 import React from 'react';
 import './aboutusform.css';
+
+import CloseX from './pics/x.png';
+	
 const AboutUsForm =({onButtonPressed})=>{
+
+const ClosingAnimation = async()=>{
+		document.getElementById('messageForm').style.animation='EClose 3s 1';
+		fetch(null)
+		.then(await setTimeout(()=>{onButtonPressed(false)},3000));}
+
+
 
 	return(
 	<div id='messageForm' className='AboutUsFormMain'>
 			<form className='formbox shadow-5'>
+			<img 
+				onClick={()=>ClosingAnimation()}
+				src={CloseX} className='XFormBtn fr' />
+				<br/><br/>
 				<div className="field" tabindex="1">
 					<label className="labels">
 						Your Name
@@ -30,7 +44,7 @@ const AboutUsForm =({onButtonPressed})=>{
 				</div>
 					<br/>
 				<button 
-					onClick={()=>onButtonPressed(false)} 
+					onClick={()=>ClosingAnimation()} 
 					className="fieldinput pa2 bg-orange b dib br3 hover-bg-yellow grow" 
 					type="reset">
 						Send Me Message

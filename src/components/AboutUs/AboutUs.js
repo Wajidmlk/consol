@@ -3,7 +3,6 @@ import AboutUsForm from './AboutUsForm';
 import './aboutus.css';
 import ContactPic from './pics/pic1.png';
 import fieldPic from './pics/field.webp';
-import {Link} from 'react-scroll';
 class AboutUs extends React.Component {
 
 constructor(){
@@ -15,6 +14,7 @@ constructor(){
 }
 
  onButtonPressed = (B) =>{
+	document.getElementById('Effects').style.animation='Temp 5s 1';
 	this.setState({buttonPressed:B});
 }
 render(){
@@ -59,7 +59,7 @@ render(){
 
 			</div>
 			
-			<div className='aboutUsIN Effects'>
+			<div id= 'Effects'className='Effects'>
 			{
 				(this.state.buttonPressed)?
 					<AboutUsForm onButtonPressed={this.onButtonPressed} />:null

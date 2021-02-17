@@ -1,0 +1,33 @@
+.AboutUsFormMain{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.formbox{
+    padding: 2%;
+    max-width:600px;
+    min-width:150px;
+    width:400px;
+}
+.field{
+    width:100%;
+}
+.labels{
+    font-size: 25px;
+    color: grey;
+    padding-bottom: 100px;
+    transition: 1s;
+}
+.labels:hover{
+    color: black;
+
+}
+.fieldinput{
+width: 100%;
+}

@@ -54,3 +54,33 @@
     font-weight: 400;
     padding-top: 25px;
 }
+
+
+
+
+@media screen and (max-width: 1070px) {
+  .Logo{
+    height: 50px;
+    width: 60px;
+  }
+
+  .aboutUsIN{
+    flex-direction: column;
+    
+  }
+  .NavList{
+    display: none;
+  }
+  .MenuBtn{
+    display: block;
+  }
+  .FooterBody{
+
+    flex-direction: column;
+    
+  }
+
+  .FooterAdresses{
+    flex-direction: column; 
+  }
+}

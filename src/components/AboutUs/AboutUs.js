@@ -1,8 +1,23 @@
 import React from 'react';
+import AboutUsForm from './AboutUsForm';
 import './aboutus.css';
 import ContactPic from './pics/pic1.png';
 import fieldPic from './pics/field.webp';
-const AboutUs =()=>{
+import {Link} from 'react-scroll';
+class AboutUs extends React.Component {
+
+constructor(){
+	super();
+	this.state = {
+		buttonPressed:false
+	}
+ 
+}
+
+ onButtonPressed = (B) =>{
+	this.setState({buttonPressed:B});
+}
+render(){
 	return(
 	<div id='polices' className='AboutUsMain'>
 		
@@ -28,7 +43,9 @@ const AboutUs =()=>{
 					<br/>
 					<p className='f3 '>We Believe that Engineering have Solution of Every Problem.</p>
 					<br/><br/>
+
 					<a  
+					onClick={()=>this.onButtonPressed(true)}
 					href='localhost:3000'
 					className='grow f3 orange link ba ph3 br2 b pv2 mb2 dib  pointer'>
 						Contact Us
@@ -38,9 +55,20 @@ const AboutUs =()=>{
 				<div className='aboutUsInBox'>
 					<img alt='field information' src={fieldPic}/>
 				</div>
+
+
+			</div>
+			
+			<div className='aboutUsIN Effects'>
+			{
+				(this.state.buttonPressed)?
+					<AboutUsForm onButtonPressed={this.onButtonPressed} />:null
+				
+			}
 			</div>
 		</div>
 	</div>
 	);
+}
 }
 export default AboutUs;

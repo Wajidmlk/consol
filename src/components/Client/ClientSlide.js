@@ -25,26 +25,20 @@ const fadeImages = [
 
   return (
     <div className='Slider'>
-      <div className="slide-container">
         <Slide {...fadeProperties}>
-          <div className="each-fade">
             <div className='ImgBox'>
               <img className='ClientImg' alt='1' src={fadeImages[0]} />
               <img className='ClientImg' alt='2' src={fadeImages[1]} />
               <img className='ClientImg' alt='3' src={fadeImages[2]} />
               <img className='ClientImg' alt='4' src={fadeImages[3]} />
-            </div>
           </div>
-          <div className="each-fade">
-            <div>
+            <div className='ImgBox'>
               <img className='ClientImg' alt='4' src={fadeImages[4]} />
               <img className='ClientImg' alt='3' src={fadeImages[5]} />
               <img className='ClientImg' alt='2' src={fadeImages[6]} />
               <img className='ClientImg' alt='1' src={fadeImages[7]} />
             </div>
-          </div>
         </Slide>
-      </div>
     </div>
   );
 };

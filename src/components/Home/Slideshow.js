@@ -13,14 +13,18 @@ const fadeImages = [
   pic2,
   pic3
 ];
-
+const Works= ()=>{
+}
 const Slideshow = () => {
   const classN='container-AnimationIN ';
   const classN2='container2-AnimationIN ';
   const classN3='container3-AnimationIN ';
 
   const duration={
-    duration:8000
+    duration:8000,
+    arrows:false,
+    Easing:'linear',
+    onChange:()=>Works()
   }
   return (
     <div className="slide-container">

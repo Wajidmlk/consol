@@ -11,27 +11,26 @@ class App extends Component{
 constructor(){
     super();
     this.state={
-      YPosition :0
+      YPosition :0,
+      ScreenWidth: true
     }
   }
 
-onButtonSubmit=(s)=>{
-this.setState({YPosition:window.scrollY});
-console.log("From click: ",this.state.YPosition);
-}
-
-
+  componentDidMount(){
+    this.setState({YPosition:window.visualViewport.width})
+          console.log('Mount: ',this.state.YPosition)
+  }
   render()
   {
-    if(this.state.YPosition===0)
-    {
-
-console.log("From condition: ",this.state.YPosition);
-    }
     return(
       <div>
-       	<Navigation onButtonSubmit={this.onButtonSubmit} />
-        <Home />  
+        {
+          (this.state.ScreenWidth)?
+            <Navigation />
+          :
+            null
+        }
+       	<Home />  
         <Client />
         <Work />
         <AboutUs />
